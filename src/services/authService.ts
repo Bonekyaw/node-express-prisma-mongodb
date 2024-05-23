@@ -1,8 +1,4 @@
-import "dotenv/config";
 import { PrismaClient } from "@prisma/client"; // { Prisma, PrismaClient }
-const moment = require("moment");
-import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
 
 const prisma = new PrismaClient();
 
