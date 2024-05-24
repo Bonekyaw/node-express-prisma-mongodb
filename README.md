@@ -27,6 +27,15 @@ DATABASE_URL="mongodb+srv://username:password@cluster0.ropxgna.mongodb.net/mydb?
 TOKEN_SECRET="something hard to guest"
 
 ```
+Please note.   
+*TOKEN_SECRET* should be complex and hard to guest.  
+After git clone, it should be run.
+
+```
+npm install
+npm run dev
+
+```  
 
 If you have something hard to solve,
 DM  
