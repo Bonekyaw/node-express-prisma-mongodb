@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 
 // Extend the Request interface to include the adminId property
 interface CustomRequest extends Request {
-  adminId?: number; // or string, depending on your ID type
+  adminId?: number; 
 }
 
 const checkAuth = (param: any) => {
