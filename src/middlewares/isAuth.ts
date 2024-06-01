@@ -23,7 +23,7 @@ const isAuth = (req: CustomRequest, res: Response, next: NextFunction) => {
     };
   } catch (error: any) {
     error.status = 500;
-    throw error;
+    return next(error);
   }
 
   if (!decodedToken) {
