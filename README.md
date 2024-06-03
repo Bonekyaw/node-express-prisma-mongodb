@@ -120,7 +120,7 @@ Response
 {
     "message": "Successfully created an account.",
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NWIwZDhmNmUwNGJiOGMzNWY0MTlkNiIsImlhdCI6MTcxNzI0MzI4MCwiZXhwIjoxNzE3MjQ2ODgwfQ.dvJT2UsGsC1za3lhcu3b3OrMR8BCIKvSlbiIgoBoLJQ",
-    "user_id": "1",
+    "user_id": "6655e029716f9ca5554ca584",
     "randomToken": "p1jlepl7t7pqcdgg1sm0crbgbodi67auj"
 }
 ```
@@ -136,7 +136,7 @@ Response
 {
     "message": "Successfully Logged In.",
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NTVlMDI5NzE2ZjljYTU1NTRjYTU4NCIsImlhdCI6MTcxNzQwMjQ1OSwiZXhwIjoxNzE3NDA2MDU5fQ.tZNAwjt4rM3tiZgl1LdwfYScbPqoOnMTtaKOTI1pEXY",
-    "user_id": "1",
+    "user_id": "6655e029716f9ca5554ca584",
     "randomToken": "25uzndvz1lzu65fpjn9b6suaxj8gm91k"
 }
 ```
@@ -146,7 +146,7 @@ Response
 ```javascript
 Request with Authorization Header
 {
-    "user_id": "1",
+    "user_id": "6655e029716f9ca5554ca584",
     "randomToken": "b6x9na0z5abc7wix1t2ojj5hdkk7aosm6"
 }
 
@@ -154,7 +154,7 @@ Response
 {
     "message": "Successfully sent a new token.",
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NTgzODYyNzliMmEzZjEzNDZhYjAwZCIsImlhdCI6MTcxNzA1NzY5NiwiZXhwIjoxNzE3MDYxMjk2fQ.4QyftFaMZE7MT_odGdP8yWsGrclaMstc_867PvTfV88",
-    "user_id": "1",
+    "user_id": "6655e029716f9ca5554ca584",
     "randomToken": "x3y20n178w8m6fwptxx5pdwqao8ihpsl"
 }
 ```   
