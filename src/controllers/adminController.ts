@@ -88,15 +88,15 @@ export const index = [
       createdAt: true,
     };
 
-    // const admins = await offset(
-    //   prisma.admin,
-    //   page,
-    //   limit,
-    //   filters,
-    //   order,
-    //   fields
-    // );
-    const admins = await noCount(prisma.admin, page, limit, filters, order, fields);
+    const admins = await offset(
+      prisma.admin,
+      page,
+      limit,
+      filters,
+      order,
+      fields
+    );
+    // const admins = await noCount(prisma.admin, page, limit, filters, order, fields);
     // const admins = await cursor(
     //   prisma.admin,
     //   cursors,
