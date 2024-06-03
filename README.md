@@ -47,7 +47,7 @@ cd lucky
 git clone https://github.com/Bonekyaw/node-express-prisma-mongodb.git .
 rm -rf .git
 npm install
-npm start
+npm run dev
 
 ```  
 Before you run, make sure you've created .env file and completed required information.  
